@@ -1,0 +1,107 @@
+<!DOCTYPE html>  
+<html>
+    <head>
+    <title>chandu website</title>
+     <link rel="icon" type="image/x-icon" href="images/fevicon.webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">        
+    </head>
+<body>
+    <section class="header">  
+    
+        <nav>           
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>        
+             <div class="nav-links" id="navLink">
+                 <i class="fa fa-times" onclick =  "hideMenu()" ></i>
+                 <ul><li><a href="index.html">Home</a></li>
+                     <li><a href="">Careers</a></li>
+                     <li><a href="">Contact us </a></li>
+                     <li><a href="https://www.google.com/" target="_parent">Google</a></li>
+                     <li><a href="">about us</a></li>
+                                     
+                 </ul>             
+             </div> 
+            <i class="fa fa-bars" onclick= "showMenu()"> </i>      
+        </nav>   
+       <!--<div class="row ">
+          <div class="col">
+            <h1>welcome to the website of chandu</h1>
+           <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+          </div>  
+           <div class="col">
+               <h1>welcome to the website of chandu</h1>
+           <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+          </div> 
+      </div>-->  
+       <div class="text-box">
+            <h1> welcome to the website of chandu </h1>
+           <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+            <a href="" class="btn">Click Me </a>
+           
+        </div>   
+    </section>
+<!--End of the header part-->
+    
+<!--Beggining of the 2 part -->
+ <section class="course">
+      <h1>Courses we offer</h1>
+      <p>dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+      <div class="row">
+          <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+          </div>
+          <div class="course-col">
+                <h3>Degree</h3>
+                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+          </div>
+          <div class="course-col">
+                <h3>Graduation</h3>
+                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit </p>
+        </div>    
+     </div>  
+</section>
+<!--end of second part-->
+
+<!--campus part-->
+    <section class ="campus">
+         <h1>Our Global Campus</h1>
+         <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+        <div class="row">
+            <div class="campus-col">
+              <img src="images/london.png">
+                <div class="layer">
+                    <h3>London</h3>                    
+                </div>           
+            </div> 
+            <div class="campus-col">
+              <img src="images/washington.png">
+                <div class="layer">
+                    <h3>Paris</h3>                    
+                </div>           
+            </div>  
+            <div class="campus-col">
+              <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>Denmark</h3>                    
+                </div>           
+            </div>  
+        </div>        
+    </section>
+    
+    
+ <script>
+   var navLink = document.getElementById("navLink");
+    function hideMenu() {
+        navLink.style.right = "-210px";
+            }
+    function showMenu() {
+        navLink.style.right = "0";
+            }
+            
+</script>
+
+    
+</body>                     
+</html>         
